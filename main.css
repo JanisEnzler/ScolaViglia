@@ -1,5 +1,5 @@
 * {
-    --header-color: #666766;
+    --header-color: #414242;
     --header-text-color: #ffffff;
     --item-hover-color: #f0f0f0;
     --item-hover-text-color: #000000;
@@ -7,6 +7,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: var(--header-color);
+    color: var(--header-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
 }
 
 header {

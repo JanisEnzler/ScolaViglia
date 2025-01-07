@@ -1,7 +1,8 @@
 const title = document.querySelector('.title');
 const layer1 = document.querySelector('.layer1');
 const car = document.querySelector('.car');
-const carY = car.getBoundingClientRect().bottom;
+const carY = car.getBoundingClientRect().top;
+console.log(carY);
 
 document.addEventListener('scroll', function () {
    let value = window.scrollY;
