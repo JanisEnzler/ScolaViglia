@@ -45,8 +45,8 @@ header nav a:hover {
 
 .home {
     border: none;
-    display: flex;
-    height: 100dvh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .home img, .home h1 {
@@ -77,21 +77,46 @@ header nav a:hover {
     font-size: 30px;
 }
 
-.about {
+.about, .place {
+    min-height: 100vh;
     padding-right: 250px;
     padding-left: 250px;
-    padding-top: 50;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding: auto;
     background-color: rgb(84,114,71);
     color: white;
     position: relative;
     z-index: 100;
-    padding-bottom: 1000px;
 }
-.about h1 {
-    font-size: 40px;
+.about h1,  .place h1 {
+    font-size: 50px;
 }
 
-.about p {
-    font-size: 20px;
+.about p,  .place p {
+    font-size: 30px;
     margin-top: 20px;
+}
+
+.place {
+    background-color: white;
+    color: black;
+}
+
+.location {
+    overflow: hidden;
+    height: auto;
+    background-color: white;
+    padding-top: 200px;
+    color: black;
+    position: relative;
+    z-index: 100;
+}
+
+.car{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
 }
