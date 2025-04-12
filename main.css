@@ -151,11 +151,6 @@ header nav a:hover {
         object-position: bottom; 
     }
 
-    .home .title {
-        transform: translateY(0); 
-        height: 50vh; 
-    }
-
     .about p,  .place p {
         font-size: 18px;
         text-align: left;
