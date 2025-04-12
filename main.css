@@ -59,6 +59,8 @@ header nav a:hover {
     border: none;
     height: 100vh;
     overflow: hidden;
+    position: relative;
+    margin-bottom: -1px; /
 }
 
 .home img, .home h1 {
@@ -67,19 +69,21 @@ header nav a:hover {
     width: 100%;
     pointer-events: none;
     border: none;
+    min-width: 100%;
+    object-fit: cover;
 }
 
 .home .title{
-    position: absolute;
-    margin: 0;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-20%);
 }
+
 
 .home .title h2 {
     font-size: 60px;
@@ -100,6 +104,7 @@ header nav a:hover {
     color: white;
     position: relative;
     z-index: 100;
+    margin-top: -1px;
 }
 .about h1,  .place h1 {
     font-size: 50px;
