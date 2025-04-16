@@ -21,7 +21,7 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.add('visible');
         }
     });
-}, {threshold: 0.1});
+}, { threshold: 0.1 });
 
 sections.forEach(section => {
     observer.observe(section);
@@ -31,13 +31,13 @@ sections.forEach(section => {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        
+
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
     });
 });
-        
+
 // Header scroll effect
 window.addEventListener('scroll', () => {
     const header = document.querySelector('header');
