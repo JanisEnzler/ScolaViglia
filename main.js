@@ -6,7 +6,7 @@ const sections = document.querySelectorAll('section');
 
 function parallax() {
     const scroll = window.scrollY;
-    title.style.transform = `translateY(calc(${scroll * 0.7}px - 30%))`;
+    title.style.transform = `translateY(calc(${scroll * 0.7}px - 32%))`;
     layer1.style.transform = `translateY(${scroll * 0.5}px)`;
 }
 
