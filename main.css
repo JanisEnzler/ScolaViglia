@@ -326,8 +326,8 @@ footer p {
     transform-origin: right center;
     margin-top: 50px;
     height: 90%;
-    /* Cuts off the bottom 10% */
     margin-bottom: -17%;
+    margin-top: -5%;
     overflow: hidden;
 }
 
