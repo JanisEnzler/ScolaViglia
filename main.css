@@ -321,9 +321,7 @@ footer p {
     left: 0;
 }
 
-.layer1{
-    transform: translateY(15%);
-}
+
 
 .map{
     display: flex;
