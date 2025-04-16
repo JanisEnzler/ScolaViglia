@@ -2,7 +2,9 @@
 <html>
 
 <head>
-    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scola Vigla - Gruppenhaus Salouf</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,76 +16,110 @@
 <body>
 
     <header>
-        <h1>Scola Viglia</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">Über Uns</a>
-            <a href="#contact">Kontakt</a>
-        </nav>
+        <div class="header-container">
+            <div class="logo">Scola Vigla</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#salouf">Salouf</a></li>
+                    <li><a href="#standort">Standort</a></li>
+                    <li><a href="#raumangebot">Raumangebot</a></li>
+                    <li><a href="#erreichbarkeit">Erreichbarkeit</a></li>
+                    <li><a href="#preise">Preise</a></li>
+                    <li><a href="#gaestekarte">Gästekarte</a></li>
+                    <li><a href="#umgebung">Umgebung</a></li>
+                    <li><a href="#belegungsplan">Belegungsplan</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="home" id="home">
+    <div class="home" id="home">
         <div class="title">
             <h2>Scola Viglia</h2>
             <h3>Das Gruppenhaus</h3>
         </div>
         <img class="layer1" src="SVGs/layer1.svg" alt="mountains">
         <img class="layer2" src="SVGs/layer2.svg" alt="hills">
-    </section>
+    </div>
 
-    <section class="about" id="about">
-        <h1>Über Uns</h1>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ut suscipit pretium ullamcorper dictumst erat massa
-            malesuada elementum accumsan. Viverra facilisi fusce elit magna nullam blandit. Quisque libero vitae
-            vestibulum morbi luctus senectus inceptos. Risus tincidunt facilisi integer lobortis blandit. Hac rutrum
-            conubia netus; habitasse lacinia nam. Ullamcorper quis montes posuere natoque ultrices viverra proin semper.
-            Fermentum gravida ultrices tristique sapien egestas tristique inceptos. Sed inceptos amet tellus tempus
-            ipsum quisque.</p>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ut suscipit pretium ullamcorper dictumst erat massa
-            malesuada elementum accumsan. Viverra facilisi fusce elit magna nullam blandit. Quisque libero vitae
-            vestibulum morbi luctus senectus inceptos. Risus tincidunt facilisi integer lobortis blandit. Hac rutrum
-            conubia netus; habitasse lacinia nam. Ullamcorper quis montes posuere natoque ultrices viverra proin semper.
-            Fermentum gravida ultrices tristique sapien egestas tristique inceptos. Sed inceptos amet tellus tempus
-            ipsum quisque.</p>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ut suscipit pretium ullamcorper dictumst erat massa
-            malesuada elementum accumsan. Viverra facilisi fusce elit magna nullam blandit. Quisque libero vitae
-            vestibulum morbi luctus senectus inceptos. Risus tincidunt facilisi integer lobortis blandit. Hac rutrum
-            conubia netus; habitasse lacinia nam. Ullamcorper quis montes posuere natoque ultrices viverra proin semper.
-            Fermentum gravida ultrices tristique sapien egestas tristique inceptos. Sed inceptos amet tellus tempus
-            ipsum quisque.</p>
-    </section>
+    <div class="background">
+    <section class="about"id="home-content">
+        <h2>Unser Haus</h2>
+        <p>Die <strong>Scola Vigla</strong> einst das Schulhaus von Salouf – verbindet historischen Charme mit modernem Komfort. Seit Generationen ist dieses besondere Haus ein Ort der Begegnung in den Bündner Bergen. Das alte Schulhaus von Salouf wurde gegen Ende des 19. Jahrhunderts erstellt. Das Gebäude diente bis in die Sechzigerjahre des letzten Jahrhunderts als Schulhaus, nachher für einige Jahre als Truppenunterkunft und schliesslich bis heute als Gruppenunterkunft mit 22 Betten. Gegenüber der "Scola viglia" befindet sich ein Fussballplatz, ein Allwetterplatz sowie ein Kinderspielplatz. Im Winter wird ein Gratis- Kinderskilift unter dem öffentlichen Parkplatz betrieben. Bei schlechtem Wetter oder auf Wunsch kann tagsüber die nahegelegene Turnhalle von der Gemeinde Salouf gemietet werden. Die Miete beträgt für einen halben Tag CHF 50.00 und für einen ganzen Tag CHF 80.00. Telefon-Nummer Gemeinde Salouf: +41 81 684 10 59</p>
+        
+        <div class="image-grid">
+            <img src="img/haus-aussen.jpg" alt="Historische Fassade der Scola Vigla">
+            <img src="img/wohnbereich.jpg" alt="Gemütlicher Wohnbereich">
+            <img src="img/gemeinschaftsraum.jpg" alt="Gemeinschaftsraum">
+        </div>
 
-    <section class="location">
+        <p>Unser Haus bietet:</p>
+        <ul>
+            <li>Gemütliche Gruppenunterkunft mit 22 Betten</li>
+            <li>Voll ausgestattete Küche mit modernen Geräten</li>
+            <li>Gemeinschaftsbereiche zum Entspannen und Zusammensein</li>
+            <li>Ideale Lage direkt im Dorfzentrum von Salouf</li>
+        </ul>
+    </section>
+    </div>
+
+    <div class="location">
         <div class="car-container">
             <img src="SVGs/layer3.svg" alt="house">
             <img class="car" src="SVGs/beetle.svg" alt="beetle">
         </div>
+    </div>
+
+    <section id="salouf">
+        <h2>Salouf</h2>
+        <p><strong>Salouf (1'258 ü. M.)</strong> liegt in der Nähe von <strong>Savognin</strong> auf einer Terrasse am Ostabhang des Piz Toissa (2657 m) links über dem Talgrund der Julia.</p>
+        
+        <div class="image-grid">
+            <img src="img/salouf-dorf.jpg" alt="Dorf Salouf">
+            <img src="img/landschaft.jpg" alt="Berglandschaft um Salouf">
+            <img src="img/kirche.jpg" alt="Kirche St. Georg">
+        </div>
     </section>
 
-    <section class="place" id="contact">
-        <h1>Ort</h1>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ut suscipit pretium ullamcorper dictumst erat massa
-            malesuada elementum accumsan. Viverra facilisi fusce elit magna nullam blandit. Quisque libero vitae
-            vestibulum morbi luctus senectus inceptos. Risus tincidunt facilisi integer lobortis blandit. Hac rutrum
-            conubia netus; habitasse lacinia nam. Ullamcorper quis montes posuere natoque ultrices viverra proin semper.
-            Fermentum gravida ultrices tristique sapien egestas tristique inceptos. Sed inceptos amet tellus tempus
-            ipsum quisque.</p>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ut suscipit pretium ullamcorper dictumst erat massa
-            malesuada elementum accumsan. Viverra facilisi fusce elit magna nullam blandit. Quisque libero vitae
-            vestibulum morbi luctus senectus inceptos. Risus tincidunt facilisi integer lobortis blandit. Hac rutrum
-            conubia netus; habitasse lacinia nam. Ullamcorper quis montes posuere natoque ultrices viverra proin semper.
-            Fermentum gravida ultrices tristique sapien egestas tristique inceptos. Sed inceptos amet tellus tempus
-            ipsum quisque.</p>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ut suscipit pretium ullamcorper dictumst erat massa
-            malesuada elementum accumsan. Viverra facilisi fusce elit magna nullam blandit. Quisque libero vitae
-            vestibulum morbi luctus senectus inceptos. Risus tincidunt facilisi integer lobortis blandit. Hac rutrum
-            conubia netus; habitasse lacinia nam. Ullamcorper quis montes posuere natoque ultrices viverra proin semper.
-            Fermentum gravida ultrices tristique sapien egestas tristique inceptos. Sed inceptos amet tellus tempus
-            ipsum quisque.</p>
+    <section id="standort">
+        <h2>Standort</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1152.0398684827287!2d9.575355516285805!3d46.626208621576026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478491002bfcae57%3A0x2e8c2b47310f9a22!2sScola%20Viglia!5e0!3m2!1sde!2sch!4v1744814982908!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p><strong>Veia Principala 42, 7462 Salouf</strong></p>
+        
+        <div class="image-grid">
+            <img src="img/lage.jpg" alt="Lage des Hauses">
+            <img src="img/spielplatz.jpg" alt="Spielplatz in der Nähe">
+            <img src="img/skilift.jpg" alt="Kinderskilift im Winter">
+        </div>
     </section>
 
+    <section id="raumangebot">
+        <h2>Raumangebot</h2>
+        <p>Unser Haus verfügt über:</p>
+        
+        <div class="image-grid">
+            <img src="img/schlafzimmer.jpg" alt="Schlafzimmer">
+            <img src="img/kueche.jpg" alt="Moderne Küche">
+            <img src="img/badezimmer.jpg" alt="Badezimmer">
+        </div>
+    </section>
+
+    <!-- Weitere Abschnitte (Preise, Kontakt etc.) -->
+    
+    <footer>
+        <p>Scola Vigla - Veia Principala 42, 7462 Salouf</p>
+        <p>Tel: +41 78 794 35 17 | Email: scolaviglia@gmail.com</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Scola Vigla. Alle Rechte vorbehalten.</p>
+    </footer>
     <script src="main.js"></script>
-    <footer><p>© Copyright 2025 Janis Enzler</p></footer>
 </body>
 
 </html>
